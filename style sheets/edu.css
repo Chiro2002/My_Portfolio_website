@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Bitter', serif;
+    box-sizing: border-box;
+    /* background-color: #191919; */
+}
+body{
+    background-image: url(../images/back9.jpg);
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ */
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+    padding-top: 7%;
+    margin-bottom: 15%;
+    text-shadow: 0.15em 0.04em 0.03em black;
+}
+li{
+    list-style: none;
+}
+.txt{
+    margin-left: 10%;
+    font-size: 1.5em;
+    color: aliceblue;
+    margin-bottom: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-shadow: 0.15em 0.04em 0.03em black;
+}
+
+span{
+    color: yellow;
+    margin-right: 2%;
+    text-shadow: 0.15em 0.04em 0.03em black;
+}
+
+nav{
+    padding-left: 30px;
+    padding-top: 40px;
+    margin-bottom: 50px;
+}
+nav a{
+    padding: 8px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #eee;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+nav a:hover{
+  border: 2px solid red;
+  border-radius: 20px;
+  background-color: black;
+  box-shadow: 0.1em 0.3em 0.7em 0.4em black;
+}
+
+@media screen and (max-width:800px) {
+        h2{font-size: 30px;}
+        .txt{font-size: 1.2em;}
+        nav a{font-size: 15px;}
+}
+@media screen and (max-width:600px) {
+    h2{font-size: 25px;}
+    .txt{font-size: 1em;}
+    nav a{font-size: 11px;}
+}
+@media screen and (max-width:450px) {
+    h2{font-size: 18px;}
+    .txt{font-size: 0.7em;}
+    nav a{font-size: 8px;}
+}
+@media screen and (max-width:350px) {
+    h2{font-size: 14px;}
+    .txt{font-size: 0.5em;}
+    nav a{font-size: 5px;}
+}
